@@ -29,14 +29,20 @@ Bên cạnh đó, có thể tìm được các giải pháp để làm chậm ti
 # **Hướng dẫn chạy code**
 ## Chạy code trên nền tảng Kaggle của cuộc thi.
 Về cơ bản đây là một cuộc thi trên Kaggle nên để đánh giá thì sẽ cần submit để nhận kết quả.
-- Cần có tài khoản Kaggle để tham gia vào cuộc thi https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction
-- Có thể copy, chạy sau đó submit notebook của nhóm https://www.kaggle.com/code/nanashi0it/parkinson-s-disease-progression-prediction để thu được kết quả.
- - Hoặc một cách khác là tạo notebook mới trên cuộc thi sau đó import notebook `Kaggle_ADS_Final_Project.ipynb` trên GitHub của nhóm sau đó tiến hành chạy và submit để thu được kết quả.
- - Kết quả tốt nhất mà nhóm thu được là **Private Score = 72.246** và **Public Score = 62.287**
+- Bước 1: Đăng nhập tài khoản trên trang Kaggle.
+- Bước 2: Tham gia vào cuộc thi https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction
+- Bước 3: Có thể chạy code trên Kaggle theo một trong 2 cách sau:
+ + Có thể vào notebook của nhóm https://www.kaggle.com/code/nanashi0it/parkinson-s-disease-progression-prediction chọn `Copy & Edit`
+ + Tạo notebook mới trên cuộc thi sau đó import notebook `Kaggle_ADS_Final_Project.ipynb` trên GitHub của nhóm.
+ Sau đó có thể tiến hành chạy notebook và submit để nhận kết quả dánh giá. 
 
 ## Chạy code trên môi trường Google Colab.
+Việc chạy trên Colab sẽ có một vài lưu ý sau:
 - Code trong notebook `ADS_Final_Project.ipynb` đã được điều chỉnh lại, do đó có thể tải xuống và upload lên Colab để chạy.
--  Chạy trên Colab sẽ không có đánh giá kết quả cuối cùng do muốn đánh giá điểm số chính xác cần sử dụng API của cuộc thi trên Kaggle.
-- Khi chạy dữ liệu sẽ được lấy từ Drive mà nhóm đã tải lên trước đó nên không cần upload dữ liệu lên Colab.
+- Chạy trên Colab sẽ không có đánh giá kết quả cuối cùng (chỉ có kết quả đánh giá từ hàm đánh giá nhóm tự cài đặt). Do đó muốn đánh giá điểm số chính xác cần sử dụng API của cuộc thi trên Kaggle.
+- Khi chạy, dữ liệu sẽ được lấy từ Drive mà nhóm đã tải lên trước đó nên không cần upload dữ liệu lên Colab.
 - Nếu muốn xem dữ liệu có thể tải xuống bằng đường dẫn Drive trong Notebook hoặc tải dữ liệu từ GitHub.
-- - Có thể chạy code tại `Thời gian chạy` -> `Chạy tất cả` hoặc bất cứ phương thức chạy nào khác.
+
+Các bước thực hiện như sau:
+- Bước 1: Tải file `ADS_Final_Project.ipynb` trong GitHub của nhóm.
+- Bước 2: Upload file đã tải lên Colab và tiến hành chạy như bình thường.
