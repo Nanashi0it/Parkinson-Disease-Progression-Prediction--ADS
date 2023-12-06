@@ -1,4 +1,4 @@
-# **ADS_Final_Project**
+# **ADS Final Project: Parkinson's Disease Progression Prediction**
 Đồ án cuối kì - Khoa học dữ liệu ứng dụng
 
 Nhóm **Data Lord** gồm 4 thành viên:
